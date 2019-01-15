@@ -13,7 +13,7 @@ def test_more_stuff():
   assert 1 == 1
 
 def test_test():
-  assert 1 == 1
+  assert 0 == 1
 
 if __name__ == '__main__':
   pytest.main()
