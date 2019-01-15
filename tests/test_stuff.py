@@ -9,5 +9,11 @@ def test_failure():
 def test_more():
   assert 1 == 1
 
+def test_more_stuff():
+  assert 1 == 1
+
+def test_test():
+  assert 1 == 1
+
 if __name__ == '__main__':
   pytest.main()
