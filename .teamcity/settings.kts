@@ -47,5 +47,9 @@ object Build : BuildType({
         script {
             scriptContent = "echo 'Hello world!'"
         }
+        script {
+            scriptContent = "echo 'In Docker!'"
+            dockerImage = "nginx:latest"
+        }
     }
 })
