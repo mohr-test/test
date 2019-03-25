@@ -49,7 +49,7 @@ object Build : BuildType({
         }
         script {
             scriptContent = "echo 'In Docker!'"
-            dockerImage = "nginx:latest"
+            dockerImage = "docker.corp.surveymonkey.com/kopy27/kopy27:0.0.0-b93"
         }
     }
 })
